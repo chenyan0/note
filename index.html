@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/data.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/data.js"></script>
+
+</head>
+<body>
+<div class="panel  beiwang" style="z-index:2">
+    <div class="panel-heading ">
+        <h3 class="panel-title ">备忘录</h3>
+    </div>
+    <div class="panel-body  add">
+        <!--<button type="button" class="btn btn-primary btn-xs btn-list">列表显示</button>-->
+        <div class="glyphicon glyphicon-plus"></div>
+        <!--<button type="button" class="btn btn-primary btn-xs btn-label">标签显示</button>-->
+    </div>
+</div>
+
+<form style="z-index: 999;background: #f9f9f9">
+    <button type="button" class="close formclose " id="close"  aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="form-group">
+        <label for="exampleInputEmail1">标题</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Email">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">内容</label>
+        <textarea class="form-control con" rows="3"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputFile">时间</label>
+        <input type="date" id="time">
+
+    </div>
+    <button type="button" class="btn btn-default submitbtn">确定</button>
+</form>
+<div class="panel  news "  >
+    <button type="button" class="close formclose del" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="panel-body">
+        <div class="title-text"></div>
+    </div>
+    <div class="panel-body" >
+        <div class=" con-text" rows="3"></div>
+    </div>
+    <div class="panel-body">
+        <div class="time-text"></div>
+    </div>
+</div>
+<div class="panel panel-warning list" >
+    <button type="button" class="close formclose del" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="" >
+        <h3 class="panel-title ">标题</h3>
+    </div>
+    <div class="panel-body ">
+        <div class="">内容</div>
+    </div>
+</div>
+
+</body>
+</html>

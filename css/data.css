@@ -1,0 +1,97 @@
+body{
+    background: url("../img/bg.png");
+}
+.beiwang{
+    background: none;
+    z-index:10;
+    position: relative;
+    color: #000;
+}
+.beiwang h3{
+    text-align: center;
+    font-size: 30px;
+
+    -webkit-user-select: none;
+}
+.add{
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+form{
+    padding: 10px;
+
+    width: 30%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    height: 320px;
+    display: none;
+    transform-origin: top;
+    animation-fill-mode: forwards;
+
+}
+.news{
+    width:275px;
+    height: 255px;
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    -webkit-user-select: none;
+    background: url("../img/note.png") center center;
+
+
+}
+.glyphicon{
+    /*margin-left: 150px;*/
+    color: #000;
+}
+
+.panel-body{
+    padding: 0;
+}
+.news .panel-heading{
+    text-align: left;
+    margin-left:30px;
+    padding: 4px;
+}
+.list{
+    display: none;
+    background: url("../img/list.png") center  center;
+    width: 50%;
+
+    margin:40px auto;
+
+}
+
+.btn-list,.btn-label{
+    float: right;
+    margin-left: 10px;
+}
+.title-text{
+    text-align: center;
+    padding: 20px 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color:#46b8da;
+}
+.con-text{
+    width: 230px;
+    padding: 0 10px 0 50px;
+    height: 150px;
+}
+.time-text{
+    padding: 5px 70px;
+    margin-top: -10px;
+}
+.del{
+
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
